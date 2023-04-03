@@ -1,0 +1,48 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+.alles {
+    background-color: rgba(242, 189, 1, 1);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.buttons button {
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin: 0 20px;
+    background-color: blue;
+    color: white;
+}
+
+button:disabled {
+    background-color: lightgray;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.logo {
+    padding: 50px;
+    text-align: center;
+}
+
+.logo img {
+    text-align: center;
+    width: 300px;
+}
+
+
+.pokemons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

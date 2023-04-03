@@ -1,0 +1,40 @@
+.pokemonTotaal img {
+    width: 100px;
+    margin: 20px;
+}
+.pokemonTotaal {
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.pokemonTotaal h1 {
+    font-size: 30px;
+}
+
+.pokemonTotaal h2 {
+    font-size: 20px;
+}
+
+.pokemonTotaal h3 {
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.pokemonTotaal li {
+    width: 160px;
+    text-align: center;
+    font-size: 15px;
+    list-style: none;
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 5px;
+
+    background-color: lightgray;
+}
