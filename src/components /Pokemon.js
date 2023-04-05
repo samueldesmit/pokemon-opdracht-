@@ -18,7 +18,6 @@ function Pokemon({endpoint}) {
         }
 
         getPokemons()
-
     }, [endpoint])
 
     return (

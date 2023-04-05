@@ -9,7 +9,6 @@ function App() {
 
     const [pokemonNames, setPokemonNames] = useState({});
     const [offset, setOffset] = useState("https://pokeapi.co/api/v2/pokemon/")
-    const pagina = offset
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState(false)
 
@@ -30,7 +29,7 @@ function App() {
 
         getPokemons()
 
-    },[offset]);
+    }, [offset]);
 
     return (
         <div className="alles">
@@ -54,10 +53,10 @@ function App() {
             </div>
 
             <div className="pokemons">
-            {pokemonNames.results && pokemonNames.results.map( (pokemon) => {
-                return<Pokemon key={pokemon.name} endpoint={pokemon.url}/>
+                {pokemonNames.results && pokemonNames.results.map((pokemon) => {
+                    return <Pokemon key={pokemon.name} endpoint={pokemon.url}/>
 
-            })}
+                })}
             </div>
             {loading && <p>loading</p>}
             {error && <p>er ging iets mis...</p>}
